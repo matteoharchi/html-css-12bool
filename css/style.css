@@ -1,4 +1,8 @@
-
+.nav-content,
+.main-content,
+.footer-content{
+    font-family: 'Montserrat', sans-serif;
+}
 .nav-content{
     background-color: lightgreen;
     height: 40px;
