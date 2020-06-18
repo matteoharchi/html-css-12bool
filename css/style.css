@@ -1,0 +1,52 @@
+
+.nav-content{
+    background-color: lightgreen;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+.nav-content div{
+    display: inline-block;
+}
+.menu ul li{
+    height: 40px;
+    float: left;
+    color: white;
+    list-style-type: none;
+}
+.fas {
+    float: right;
+    display: none;
+}
+
+.main-content {
+    height: 500px;
+    /* border: 2px solid white; */
+}
+.corso{
+    border: 1px solid red;
+    margin-top: 50px;
+    float: left;
+    color: black;
+    text-align: center;
+}
+.corso img {
+    max-width: 100%;
+}
+
+@media all and (max-width:992px) {
+    .nav-content {
+        height: 80px;
+    }
+    .menu ul{
+        display: none;
+    }
+}
+@media all and (max-width:768px) {
+    .nav-content {
+        height: 120px;
+    }
+    .menu {
+        display: none;
+    }
+}
