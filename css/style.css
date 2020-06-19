@@ -46,7 +46,7 @@
     color: white;
 }
 .main-content {
-    margin-bottom: 20px;
+    margin-bottom: 200px;
 }
 .title{
     text-align: center;
@@ -58,6 +58,7 @@
     color: black;
     text-align: center;
     height: 100px;
+    margin-bottom: 100px;
 }
 .corso img {
     max-width: 100%;
@@ -74,7 +75,7 @@
 
 @media all and (max-width:992px) {
     .corso{
-        margin-bottom: 100px;
+        margin-bottom: 80px;
     }
 }
 @media all and (max-width:768px) {
